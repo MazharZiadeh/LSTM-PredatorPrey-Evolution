@@ -2,6 +2,8 @@ LSTM-Based Predator–Prey Evolution
 
 This repository contains a C++/SFML project demonstrating a coevolutionary predator–prey simulation in which each agent (predator or prey) uses a Long Short-Term Memory (LSTM) neural network to control its behavior. Over multiple generations, a genetic algorithm (GA) evolves the LSTM parameters for both species, producing emergent hunting and evasion strategies.
 
+![ezgif-4-6b40a20017 (1)](https://github.com/user-attachments/assets/8f99d64b-1e0a-438d-8f30-8759daeead99)
+
 --------------------------------------------------------------------------------
 KEY FEATURES
 
