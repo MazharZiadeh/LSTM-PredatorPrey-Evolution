@@ -38,14 +38,14 @@ KEY FEATURES
 PROJECT STRUCTURE
 
 .
-├── Constants.hpp         (Global simulation parameters)
-├── Creature.hpp/.cpp     (Predator/Prey agent structure)
-├── GA.hpp/.cpp           (Genetic Algorithm: crossover, mutation, evolvePopulation)
-├── LSTMNetwork.hpp/.cpp  (Single-step LSTM forward pass)
-├── Random.hpp/.cpp       (Global RNG, std::mt19937)
-├── Simulation.hpp/.cpp   (Main simulation loop, environment updates, data logging)
-├── main.cpp              (Entry point, runs the Simulation)
-└── stats.csv             (Generated at runtime, logs generation data)
+1. Constants.hpp         (Global simulation parameters)
+2. Creature.hpp/.cpp     (Predator/Prey agent structure)
+3. GA.hpp/.cpp           (Genetic Algorithm: crossover, mutation, evolvePopulation)
+4. LSTMNetwork.hpp/.cpp  (Single-step LSTM forward pass)
+5. Random.hpp/.cpp       (Global RNG, std::mt19937)
+6. Simulation.hpp/.cpp   (Main simulation loop, environment updates, data logging)
+7. main.cpp              (Entry point, runs the Simulation)
+8. stats.csv             (Generated at runtime, logs generation data)
 
 --------------------------------------------------------------------------------
 BUILDING & RUNNING
