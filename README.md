@@ -49,20 +49,6 @@ PROJECT STRUCTURE
 7. main.cpp              (Entry point, runs the Simulation)
 8. stats.csv             (Generated at runtime, logs generation data)
 
---------------------------------------------------------------------------------
-BUILDING & RUNNING
-
-Prerequisites:
-- C++17 (or higher) compiler
-- SFML installed (Graphics, Window, System)
-
-Example Compilation (Linux/macOS with g++):
-  g++ -std=c++17 main.cpp Simulation.cpp GA.cpp Creature.cpp LSTMNetwork.cpp Random.cpp \
-      -lsfml-graphics -lsfml-window -lsfml-system \
-      -o EvoLSTM
-  ./EvoLSTM
-
-On Windows, link SFML libraries in Visual Studio or MinGW, and place sfml-xxx.dll files next to your .exe if using dynamic linking.
 
 --------------------------------------------------------------------------------
 DATA LOGGING
